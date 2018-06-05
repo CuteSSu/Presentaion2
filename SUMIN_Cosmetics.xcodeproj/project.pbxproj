@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0258FF20C3F1F800A33B54 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0258FE20C3F1F800A33B54 /* CreateViewController.swift */; };
+		CD02590120C4188000A33B54 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02590020C4188000A33B54 /* CategoryTableViewController.swift */; };
+		CD02590320C41D0800A33B54 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02590220C41D0800A33B54 /* DetailTableViewController.swift */; };
+		CD02590520C4217500A33B54 /* AddCosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD02590420C4217500A33B54 /* AddCosViewController.swift */; };
+		CD5DD9EA20C60D8100DFCF9B /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5DD9E920C60D8100DFCF9B /* LocationTableViewController.swift */; };
+		CD5DD9EE20C611C200DFCF9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5DD9ED20C611C200DFCF9B /* ViewController.swift */; };
+		CD5DD9F020C6155A00DFCF9B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5DD9EF20C6155A00DFCF9B /* MenuViewController.swift */; };
+		CD7D6B6720C2E93A00797046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D6B6620C2E93A00797046 /* AppDelegate.swift */; };
+		CD7D6B6E20C2E93A00797046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6B6C20C2E93A00797046 /* Main.storyboard */; };
+		CD7D6B7020C2E93B00797046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6B6F20C2E93B00797046 /* Assets.xcassets */; };
+		CD7D6B7320C2E93B00797046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6B7120C2E93B00797046 /* LaunchScreen.storyboard */; };
+		CD7D6BC220C2F39800797046 /* noun_478739_cc-2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6BC120C2F39700797046 /* noun_478739_cc-2.png */; };
+		CD7D6BCC20C2F54400797046 /* noun_1655107_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6BC320C2F54200797046 /* noun_1655107_cc.png */; };
+		CD7D6BD020C2F54400797046 /* noun_736677_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6BC720C2F54300797046 /* noun_736677_cc.png */; };
+		CD7D6BD120C2F54400797046 /* noun_736071_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6BC820C2F54300797046 /* noun_736071_cc.png */; };
+		CD7D6BD920C2F55000797046 /* NanumBarunGothicLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6BD520C2F54C00797046 /* NanumBarunGothicLight.ttf */; };
+		CD7D6BDA20C2F55000797046 /* NanumBarunGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6BD620C2F54D00797046 /* NanumBarunGothic.ttf */; };
+		CD7D6BDB20C2F55000797046 /* NanumBarunGothicUltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6BD720C2F54E00797046 /* NanumBarunGothicUltraLight.ttf */; };
+		CD7D6BDC20C2F55000797046 /* NanumBarunGothicBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6BD820C2F54F00797046 /* NanumBarunGothicBold.ttf */; };
+		CD7D6BDE20C2F60F00797046 /* noun_948509_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6BDD20C2F60F00797046 /* noun_948509_cc.png */; };
+		CD7D6BE020C2F6ED00797046 /* noun_1049915_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6BDF20C2F6EC00797046 /* noun_1049915_cc.png */; };
+		CD7D6BE420C2FC8700797046 /* noun_1348869_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6BE120C2FC8600797046 /* noun_1348869_cc.png */; };
+		CD7D6BE520C2FC8700797046 /* noun_1241402_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6BE220C2FC8600797046 /* noun_1241402_cc.png */; };
+		CD7D6BE620C2FC8700797046 /* noun_576644_cc.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7D6BE320C2FC8600797046 /* noun_576644_cc.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD7D6B7A20C2E93B00797046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7D6B5B20C2E93A00797046 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7D6B6220C2E93A00797046;
+			remoteInfo = SUMIN_Cosmetics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD0258FE20C3F1F800A33B54 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		CD02590020C4188000A33B54 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		CD02590220C41D0800A33B54 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		CD02590420C4217500A33B54 /* AddCosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCosViewController.swift; sourceTree = "<group>"; };
+		CD5DD9E920C60D8100DFCF9B /* LocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
+		CD5DD9ED20C611C200DFCF9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD5DD9EF20C6155A00DFCF9B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CD7D6B6320C2E93A00797046 /* SUMIN_Cosmetics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUMIN_Cosmetics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7D6B6620C2E93A00797046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD7D6B6D20C2E93A00797046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7D6B6F20C2E93B00797046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD7D6B7220C2E93B00797046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD7D6B7420C2E93B00797046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7D6B7920C2E93B00797046 /* SUMIN_CosmeticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SUMIN_CosmeticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7D6BC120C2F39700797046 /* noun_478739_cc-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "noun_478739_cc-2.png"; path = "image/noun_478739_cc-2.png"; sourceTree = "<group>"; };
+		CD7D6BC320C2F54200797046 /* noun_1655107_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_1655107_cc.png; path = image/noun_1655107_cc.png; sourceTree = "<group>"; };
+		CD7D6BC720C2F54300797046 /* noun_736677_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_736677_cc.png; path = image/noun_736677_cc.png; sourceTree = "<group>"; };
+		CD7D6BC820C2F54300797046 /* noun_736071_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_736071_cc.png; path = image/noun_736071_cc.png; sourceTree = "<group>"; };
+		CD7D6BD520C2F54C00797046 /* NanumBarunGothicLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumBarunGothicLight.ttf; path = Font/NanumBarunGothicLight.ttf; sourceTree = "<group>"; };
+		CD7D6BD620C2F54D00797046 /* NanumBarunGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumBarunGothic.ttf; path = Font/NanumBarunGothic.ttf; sourceTree = "<group>"; };
+		CD7D6BD720C2F54E00797046 /* NanumBarunGothicUltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumBarunGothicUltraLight.ttf; path = Font/NanumBarunGothicUltraLight.ttf; sourceTree = "<group>"; };
+		CD7D6BD820C2F54F00797046 /* NanumBarunGothicBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NanumBarunGothicBold.ttf; path = Font/NanumBarunGothicBold.ttf; sourceTree = "<group>"; };
+		CD7D6BDD20C2F60F00797046 /* noun_948509_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_948509_cc.png; path = image/noun_948509_cc.png; sourceTree = "<group>"; };
+		CD7D6BDF20C2F6EC00797046 /* noun_1049915_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_1049915_cc.png; path = image/noun_1049915_cc.png; sourceTree = "<group>"; };
+		CD7D6BE120C2FC8600797046 /* noun_1348869_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_1348869_cc.png; path = image/noun_1348869_cc.png; sourceTree = "<group>"; };
+		CD7D6BE220C2FC8600797046 /* noun_1241402_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_1241402_cc.png; path = image/noun_1241402_cc.png; sourceTree = "<group>"; };
+		CD7D6BE320C2FC8600797046 /* noun_576644_cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noun_576644_cc.png; path = image/noun_576644_cc.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7D6B6020C2E93A00797046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D6B7620C2E93B00797046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD7D6B5A20C2E93A00797046 = {
+			isa = PBXGroup;
+			children = (
+				CD7D6B6520C2E93A00797046 /* SUMIN_Cosmetics */,
+				CD7D6B6420C2E93A00797046 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7D6B6420C2E93A00797046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D6B6320C2E93A00797046 /* SUMIN_Cosmetics.app */,
+				CD7D6B7920C2E93B00797046 /* SUMIN_CosmeticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7D6B6520C2E93A00797046 /* SUMIN_Cosmetics */ = {
+			isa = PBXGroup;
+			children = (
+				CD7D6BE320C2FC8600797046 /* noun_576644_cc.png */,
+				CD7D6BE220C2FC8600797046 /* noun_1241402_cc.png */,
+				CD7D6BE120C2FC8600797046 /* noun_1348869_cc.png */,
+				CD7D6BDF20C2F6EC00797046 /* noun_1049915_cc.png */,
+				CD7D6BDD20C2F60F00797046 /* noun_948509_cc.png */,
+				CD7D6BD620C2F54D00797046 /* NanumBarunGothic.ttf */,
+				CD7D6BD820C2F54F00797046 /* NanumBarunGothicBold.ttf */,
+				CD7D6BD520C2F54C00797046 /* NanumBarunGothicLight.ttf */,
+				CD7D6BD720C2F54E00797046 /* NanumBarunGothicUltraLight.ttf */,
+				CD7D6BC820C2F54300797046 /* noun_736071_cc.png */,
+				CD7D6BC720C2F54300797046 /* noun_736677_cc.png */,
+				CD7D6BC320C2F54200797046 /* noun_1655107_cc.png */,
+				CD7D6BC120C2F39700797046 /* noun_478739_cc-2.png */,
+				CD7D6B6620C2E93A00797046 /* AppDelegate.swift */,
+				CD7D6B6C20C2E93A00797046 /* Main.storyboard */,
+				CD7D6B6F20C2E93B00797046 /* Assets.xcassets */,
+				CD7D6B7120C2E93B00797046 /* LaunchScreen.storyboard */,
+				CD7D6B7420C2E93B00797046 /* Info.plist */,
+				CD5DD9ED20C611C200DFCF9B /* ViewController.swift */,
+				CD0258FE20C3F1F800A33B54 /* CreateViewController.swift */,
+				CD02590020C4188000A33B54 /* CategoryTableViewController.swift */,
+				CD02590220C41D0800A33B54 /* DetailTableViewController.swift */,
+				CD02590420C4217500A33B54 /* AddCosViewController.swift */,
+				CD5DD9E920C60D8100DFCF9B /* LocationTableViewController.swift */,
+				CD5DD9EF20C6155A00DFCF9B /* MenuViewController.swift */,
+			);
+			path = SUMIN_Cosmetics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7D6B6220C2E93A00797046 /* SUMIN_Cosmetics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7D6B8220C2E93B00797046 /* Build configuration list for PBXNativeTarget "SUMIN_Cosmetics" */;
+			buildPhases = (
+				CD7D6B5F20C2E93A00797046 /* Sources */,
+				CD7D6B6020C2E93A00797046 /* Frameworks */,
+				CD7D6B6120C2E93A00797046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SUMIN_Cosmetics;
+			productName = SUMIN_Cosmetics;
+			productReference = CD7D6B6320C2E93A00797046 /* SUMIN_Cosmetics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7D6B7820C2E93B00797046 /* SUMIN_CosmeticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7D6B8520C2E93B00797046 /* Build configuration list for PBXNativeTarget "SUMIN_CosmeticsTests" */;
+			buildPhases = (
+				CD7D6B7520C2E93B00797046 /* Sources */,
+				CD7D6B7620C2E93B00797046 /* Frameworks */,
+				CD7D6B7720C2E93B00797046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7D6B7B20C2E93B00797046 /* PBXTargetDependency */,
+			);
+			name = SUMIN_CosmeticsTests;
+			productName = SUMIN_CosmeticsTests;
+			productReference = CD7D6B7920C2E93B00797046 /* SUMIN_CosmeticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7D6B5B20C2E93A00797046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = SWUCOMPUTER;
+				TargetAttributes = {
+					CD7D6B6220C2E93A00797046 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					CD7D6B7820C2E93B00797046 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = CD7D6B6220C2E93A00797046;
+					};
+				};
+			};
+			buildConfigurationList = CD7D6B5E20C2E93A00797046 /* Build configuration list for PBXProject "SUMIN_Cosmetics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD7D6B5A20C2E93A00797046;
+			productRefGroup = CD7D6B6420C2E93A00797046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7D6B6220C2E93A00797046 /* SUMIN_Cosmetics */,
+				CD7D6B7820C2E93B00797046 /* SUMIN_CosmeticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7D6B6120C2E93A00797046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7D6BDA20C2F55000797046 /* NanumBarunGothic.ttf in Resources */,
+				CD7D6B7320C2E93B00797046 /* LaunchScreen.storyboard in Resources */,
+				CD7D6BDE20C2F60F00797046 /* noun_948509_cc.png in Resources */,
+				CD7D6BCC20C2F54400797046 /* noun_1655107_cc.png in Resources */,
+				CD7D6BE520C2FC8700797046 /* noun_1241402_cc.png in Resources */,
+				CD7D6BD020C2F54400797046 /* noun_736677_cc.png in Resources */,
+				CD7D6BC220C2F39800797046 /* noun_478739_cc-2.png in Resources */,
+				CD7D6BE020C2F6ED00797046 /* noun_1049915_cc.png in Resources */,
+				CD7D6B7020C2E93B00797046 /* Assets.xcassets in Resources */,
+				CD7D6BE420C2FC8700797046 /* noun_1348869_cc.png in Resources */,
+				CD7D6BDC20C2F55000797046 /* NanumBarunGothicBold.ttf in Resources */,
+				CD7D6BE620C2FC8700797046 /* noun_576644_cc.png in Resources */,
+				CD7D6BDB20C2F55000797046 /* NanumBarunGothicUltraLight.ttf in Resources */,
+				CD7D6BD120C2F54400797046 /* noun_736071_cc.png in Resources */,
+				CD7D6B6E20C2E93A00797046 /* Main.storyboard in Resources */,
+				CD7D6BD920C2F55000797046 /* NanumBarunGothicLight.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D6B7720C2E93B00797046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7D6B5F20C2E93A00797046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD02590320C41D0800A33B54 /* DetailTableViewController.swift in Sources */,
+				CD0258FF20C3F1F800A33B54 /* CreateViewController.swift in Sources */,
+				CD5DD9EA20C60D8100DFCF9B /* LocationTableViewController.swift in Sources */,
+				CD7D6B6720C2E93A00797046 /* AppDelegate.swift in Sources */,
+				CD5DD9EE20C611C200DFCF9B /* ViewController.swift in Sources */,
+				CD02590120C4188000A33B54 /* CategoryTableViewController.swift in Sources */,
+				CD02590520C4217500A33B54 /* AddCosViewController.swift in Sources */,
+				CD5DD9F020C6155A00DFCF9B /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7D6B7520C2E93B00797046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD7D6B7B20C2E93B00797046 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7D6B6220C2E93A00797046 /* SUMIN_Cosmetics */;
+			targetProxy = CD7D6B7A20C2E93B00797046 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD7D6B6C20C2E93A00797046 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7D6B6D20C2E93A00797046 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD7D6B7120C2E93B00797046 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7D6B7220C2E93B00797046 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD7D6B8020C2E93B00797046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD7D6B8120C2E93B00797046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD7D6B8320C2E93B00797046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SUMIN_Cosmetics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swu.ac.kr.SUMIN-Cosmetics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD7D6B8420C2E93B00797046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SUMIN_Cosmetics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swu.ac.kr.SUMIN-Cosmetics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD7D6B8620C2E93B00797046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SUMIN_CosmeticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swu.ac.kr.SUMIN-CosmeticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SUMIN_Cosmetics.app/SUMIN_Cosmetics";
+			};
+			name = Debug;
+		};
+		CD7D6B8720C2E93B00797046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SUMIN_CosmeticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "swu.ac.kr.SUMIN-CosmeticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SUMIN_Cosmetics.app/SUMIN_Cosmetics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7D6B5E20C2E93A00797046 /* Build configuration list for PBXProject "SUMIN_Cosmetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7D6B8020C2E93B00797046 /* Debug */,
+				CD7D6B8120C2E93B00797046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7D6B8220C2E93B00797046 /* Build configuration list for PBXNativeTarget "SUMIN_Cosmetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7D6B8320C2E93B00797046 /* Debug */,
+				CD7D6B8420C2E93B00797046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7D6B8520C2E93B00797046 /* Build configuration list for PBXNativeTarget "SUMIN_CosmeticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7D6B8620C2E93B00797046 /* Debug */,
+				CD7D6B8720C2E93B00797046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD7D6B5B20C2E93A00797046 /* Project object */;
+}
